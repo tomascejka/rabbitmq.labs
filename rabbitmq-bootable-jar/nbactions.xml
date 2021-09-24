@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-widlfly-jar run</actionName>
+            <displayName>widlfly-jar run</displayName>
+            <recursive>false</recursive>
+            <goals>
+                <goal>wildfly-jar:run</goal>
+            </goals>
+        </action>
+    </actions>
