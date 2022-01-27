@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     
-    <artifactId>foo</artifactId>
+    <artifactId>rabbit.empty</artifactId>
 
     <dependencies>
         <dependency>
@@ -18,4 +18,5 @@
             <version>5.13.1</version>
         </dependency>
     </dependencies>
+    <name>rabbit.empty</name>
 </project>

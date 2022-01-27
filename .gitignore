@@ -6,3 +6,6 @@
 /rabbitmq-quickstart/target/
 /rabbitmq-quickstart-ee/target/
 /rabbitmq-bootable-jar/target/
+/swagger-getting-started/swagger-simplest-v2/target/
+/swagger-getting-started/swagger-simplest-v3/target/
+/rabbitmq-gettingstarted/target/

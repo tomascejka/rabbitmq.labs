@@ -1,5 +1,6 @@
 package cz.tc.learn.rabbitmq.app;
 
+import cz.tc.learn.rabbitmq.app.producer.ProducerBean;
 import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -10,11 +11,11 @@ import javax.ws.rs.POST;
 public class HelloResource {
     
     @Inject
-    private Producer producer;
+    private ProducerBean producer;
     
     @POST
     public Response doPost() {
-        producer.publish("Hello from WildFly bootable jar!");
+        producer.publish();
         return Response.accepted().build();
     }
 }
